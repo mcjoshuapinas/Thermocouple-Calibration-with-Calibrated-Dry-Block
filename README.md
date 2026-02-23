@@ -7,7 +7,7 @@ Calibration Procedure
 The analysis follows standard metrological practices for temperature sensors:
 Channels: 6 Thermocouples.
 Points: 5 Setpoints ($0, 10, 20, 30, 40$ °C).
-Repetitions: 10 discrete measurements per setpoint to ensure thermal stability and calculate Type A uncertainty.
+Repetitions: 11 discrete measurements per setpoint to ensure thermal stability and calculate Type A uncertainty.
 Reference: Comparison against a calibrated dry-block internal/external reference sensor.
 
 Methodology & Data Processing
@@ -28,7 +28,7 @@ The script processes the thermocouple data through a rigorous metrological workf
    Where $\sigma_{residuals}$ is the standard deviation of the residuals, representing the combined repeatability of the dry-block and the sensor under test.
 
 Features
-Data processing: Processes 300+ data points (6 sensors × 10 readings × 5 points) in seconds.
+Data processing: Processes 385 data points (6 sensors × 11 readings × 5 points) in seconds.
 Error Calculation: Computes the systematic deviation ($\epsilon$) for each sensor.
 Statistical Analysis: Calculates standard deviation and Type A uncertainty ($u_A$) according to ISO/IEC 17025.
 Visualization: Generates calibration curves and error plots.
