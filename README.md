@@ -2,6 +2,8 @@ Thermocouple Calibration with Calibrated Dry-Block
 
 This repository contains a Python-based tool for processing calibration data of 6 thermocouples using a dry-block calibrator. 
 The script automates data reduction for 5 temperature setpoints ($0, 10, 20, 30, 40$ °C) with multiple repetitions per point.
+It provides the plot of thermocouples calibration with its residuals.
+It saves the calibration data of each thermocouples in a CSV file.
 
 Calibration Procedure
 The analysis follows standard metrological practices for temperature sensors:
