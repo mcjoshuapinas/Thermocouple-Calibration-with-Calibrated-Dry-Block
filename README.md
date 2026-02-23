@@ -64,6 +64,6 @@ Code snippet
   title        = {Thermocouple Calibration with Calibrated DryBlock},
   year         = 2026,
   publisher    = {GitHub},
-  doi          = {10.1234/zenodo.1234567},
+  doi          = {10.5281/zenodo.18742901},
   url          = {https://github.com/mcjoshuapinas/Thermocouple-Calibration-with-Calibrated-Dry-Block}
 }
