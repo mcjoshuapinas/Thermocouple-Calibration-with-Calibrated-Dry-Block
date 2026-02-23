@@ -13,8 +13,10 @@ Reference: Comparison against a calibrated dry-block internal/external reference
 Methodology & Data Processing
 The script processes the thermocouple data through a rigorous metrological workflow:
 1. Linear Regression AnalysisFor each of the sensors (Droite, Toit, Porte, Fenêtre, Gauche, Sol), the script calculates a first-degree polynomial fit (linear regression) against the reference temperature ($T_{ref}$).
-   The calibration curve follows the model:$$T_{ref} = m \cdot T_{sensor} + c$$$m$ (Slope): Sensitivity correction.$c$ (Intercept): Zero-offset correction.
-2. Statistical Validation ($R^2$ and Residuals)
+   The calibration curve follows the model:$$T_{ref} = m \cdot T_{sensor} + c$$
+   $m$ (Slope): Sensitivity correction.
+   $c$ (Intercept): Zero-offset correction.
+3. Statistical Validation ($R^2$ and Residuals)
    To ensure the reliability of the dry-block stability and sensor linearity:
    Coefficient of Determination ($R^2$): Quantifies how well the linear model fits the 50 data points (10 readings $\times$ 5 setpoints).
    Residual Analysis: Calculates the difference between the actual reference temperature and the predicted value from the regression.
