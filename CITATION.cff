@@ -1,0 +1,19 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Piñas"
+  given-names: "Joshua"
+  orcid: "https://orcid.org/0000-0001-7888-8167"
+title: "Thermocouple Calibration with Calibrated Dry Block"
+version: 1.1.0
+doi: 10.5281/zenodo.18742901
+date-released: 2026-02-23
+url: "https://github.com/mcjoshuapinas/Thermocouple-Calibration-with-Calibrated-Dry-Block"
+keywords:
+  - metrology
+  - thermocouple
+  - calibration
+  - ISO 17025
+  - dry-block
+  - thermal-uncertainty
+license: MIT
