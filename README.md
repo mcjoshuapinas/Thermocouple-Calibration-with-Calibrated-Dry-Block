@@ -48,8 +48,8 @@ Bash
 pip install -r requirements.txt
 
 Usage
-Prepare your data in a CSV file (see sample_data.csv for format).
-Run the main analysis script:
+1. Prepare your data in a CSV file (see sample_data.csv for format).
+2. Run the main analysis script:
 Bash
 python calibrate_tc.py
 
