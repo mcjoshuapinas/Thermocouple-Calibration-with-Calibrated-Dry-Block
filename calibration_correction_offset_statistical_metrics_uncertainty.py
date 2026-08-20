@@ -4,7 +4,6 @@ import numpy as np
 import os
 from sklearn.metrics import r2_score
 import math as m
-from math import sqrt
 
 # 0. PATH CONFIGURATION ---
 # Get the absolute path of the directory where the script is located
