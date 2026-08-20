@@ -65,14 +65,14 @@ python calibration_correction_offset_statistical_metrics_uncertainty.py
    
 Citation
 If you use this software in your research or industrial laboratory, please cite it as follows:
-DOI: 10.5281/zenodo.22035512
+DOI: 10.5281/zenodo.22035513
 Code snippet
 @software{pinas_tc_calib_2026,
   author       = {Piñas, Joshua},
   title        = {Thermocouple Calibration with Calibrated DryBlock},
-  year         = 2026,
+  year         = {2026},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.22035512},
-  version      = {v2.1.0}
+  doi          = {10.5281/zenodo.22035513},
+  version      = {v2.1.0},
   url          = {https://github.com/mcjoshuapinas/Thermocouple-Calibration-with-Calibrated-Dry-Block}
 }
