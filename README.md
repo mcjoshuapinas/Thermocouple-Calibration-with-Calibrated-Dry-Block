@@ -65,7 +65,7 @@ python calibration_correction_offset_statistical_metrics_uncertainty.py
    
 Citation
 If you use this software in your research or industrial laboratory, please cite it as follows:
-DOI: https://doi.org/10.5281/zenodo.18742901
+DOI: 10.5281/zenodo.22035512
 Code snippet
 @software{pinas_tc_calib_2026,
   author       = {Piñas, Joshua},
